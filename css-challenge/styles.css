@@ -4,21 +4,20 @@
 }
 
 #flag-container {
-    text align: center;
+  width: 400px;
+  margin: 5% auto;
 }
 
 .flag {
-    height: 210px;
-    width: 300px;
-}
-
-#france-ireland {
-    background-color: blue;
+  height: 210px;
+  width: 300px;
+  margin: 30px;
 }
 
 #germany-hungary {
-    background-color: red;
+  background-color: red;
 }
 
-
-
+#france-ireland {
+  background-color: blue;
+}
