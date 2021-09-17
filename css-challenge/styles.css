@@ -14,8 +14,14 @@
   margin: 30px;
 }
 
-span {
-  border: 1px solid black;
+#flag-above-1 {
+  position: relative;
+  top: -240px;
+  opacity: 0;
+}
+
+#flag-above-1:hover {
+  opacity: 100;
 }
 
 .horizontal-stripe {
@@ -48,6 +54,16 @@ span {
   background-color: darkgreen;
 }
 
+#flag-above-2 {
+  position: relative;
+  top: -240px;
+  opacity: 0;
+}
+
+#flag-above-2:hover {
+  opacity: 100;
+}
+
 .vertical-stripe {
   display: inline-block;
   height: 100%;
@@ -65,7 +81,6 @@ span {
 
 #vertical-3 {
   background-color: red;
-  text-align: right;
 }
 
 #vertical-4 {
