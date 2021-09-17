@@ -3,20 +3,25 @@
   margin: 0;
 }
 
+body {
+  background-color: lightgray;
+}
+
 #flag-container {
   width: 400px;
   margin: 5% auto;
+  align-content: center;
 }
 
 .flag {
   height: 210px;
   width: 300px;
-  margin: 30px;
+  margin: auto;
 }
 
 #flag-above-1 {
   position: relative;
-  top: -240px;
+  top: -210px;
   opacity: 0;
 }
 
@@ -54,9 +59,14 @@
   background-color: darkgreen;
 }
 
+#flag-below-2 {
+  margin-top: -130px;
+}
+
 #flag-above-2 {
   position: relative;
-  top: -240px;
+  top: -80px;
+  margin-top: -130px;
   opacity: 0;
 }
 
