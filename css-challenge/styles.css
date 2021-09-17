@@ -14,10 +14,64 @@
   margin: 30px;
 }
 
-#germany-hungary {
+span {
+  border: 1px solid black;
+}
+
+.horizontal-stripe {
+  display: block;
+  height: 33%;
+  width: 100%;
+}
+
+#horizontal-1 {
+  background-color: black;
+}
+
+#horizontal-2 {
   background-color: red;
 }
 
-#france-ireland {
+#horizontal-3 {
+  background-color: yellow;
+}
+
+#horizontal-4 {
+  background-color: maroon;
+}
+
+#horizontal-5 {
+  background-color: white;
+}
+
+#horizontal-6 {
+  background-color: darkgreen;
+}
+
+.vertical-stripe {
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  margin-right: -5px;
+}
+
+#vertical-1 {
   background-color: blue;
+}
+
+#vertical-2 {
+  background-color: white;
+}
+
+#vertical-3 {
+  background-color: red;
+  text-align: right;
+}
+
+#vertical-4 {
+  background-color: green;
+}
+
+#vertical-6 {
+  background-color: orange;
 }
