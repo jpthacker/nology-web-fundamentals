@@ -8,20 +8,23 @@ body {
 }
 
 #flag-container {
-  width: 400px;
+  width: 300px;
   margin: 5% auto;
-  align-content: center;
+  position: relative;
 }
 
 .flag {
   height: 210px;
   width: 300px;
-  margin: auto;
+}
+
+#flag-below-1 {
+  margin-bottom: 70px;
 }
 
 #flag-above-1 {
-  position: relative;
-  top: -210px;
+  position: absolute;
+  top: 0px;
   opacity: 0;
 }
 
@@ -59,14 +62,9 @@ body {
   background-color: darkgreen;
 }
 
-#flag-below-2 {
-  margin-top: -130px;
-}
-
 #flag-above-2 {
-  position: relative;
-  top: -80px;
-  margin-top: -130px;
+  position: absolute;
+  bottom: 0px;
   opacity: 0;
 }
 
@@ -95,6 +93,10 @@ body {
 
 #vertical-4 {
   background-color: green;
+}
+
+#vertical-5 {
+  background-color: white;
 }
 
 #vertical-6 {
