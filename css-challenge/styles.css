@@ -76,7 +76,7 @@ body {
   display: inline-block;
   height: 100%;
   width: 100px;
-  margin-right: -5px;
+  margin-right: -5px; /*Had to descrease Margin to make inline-block elements flush.*/
 }
 
 #vertical-1 {
