@@ -11,7 +11,7 @@
   background-color: green;
   color: white;
   text-align: center;
-  position: fixed;
+  position: absolute;
   top: 0px;
   padding: 10px 40px;
 }
@@ -26,12 +26,19 @@
 
 #nav-links-container {
   list-style: none;
+  width: 50%;
   display: flex;
+  justify-content: space-around;
 }
 
 .nav-links {
-  padding: 12px 50px;
   font-weight: bold;
+  padding: 12px 0px;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .panels-all {
@@ -45,8 +52,9 @@
 }
 
 #panels-container-all {
+  margin: 20px;
   display: flex;
-  margin: 30px;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
 }
 
@@ -56,6 +64,7 @@
 
 #panel-right {
   width: 30%;
-  padding: 20px;
+  padding: 15px;
   text-align: justify;
+  display: inline;
 }
