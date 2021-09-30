@@ -57,6 +57,7 @@
   margin: 20px;
   display: flex;
   justify-content: space-between;
+  height: 70vh;
 }
 
 #panels-container-left {
@@ -83,4 +84,9 @@
   width: 30%;
   text-align: justify;
   padding: 10px;
+  overflow: hidden;
+}
+
+#panel-right-text {
+  height: inherit;
 }
