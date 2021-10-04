@@ -29,15 +29,15 @@
   justify-content: space-around;
 }
 
-.nav-links {
-  list-style: none;
+a {
   color: white;
   font-weight: bold;
   padding: 12px 20px;
   border-radius: 20px;
+  text-decoration: none;
 }
 
-.nav-links:hover {
+a:hover {
   cursor: pointer;
   background-color: #f64488;
   color: black;
