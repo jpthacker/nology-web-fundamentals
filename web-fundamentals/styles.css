@@ -26,6 +26,33 @@ header h1 {
   font-size: 40px;
 }
 
+.container {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#parent-container {
+  flex-direction: row;
+}
+
+#span-container-1 {
+  flex-direction: row;
+}
+
+#children-container {
+  flex-direction: row;
+}
+
+#span-container-2 {
+  flex-direction: row;
+}
+
+#susan-container {
+  flex-direction: row;
+}
+
 .card {
   width: 300px;
   height: auto;
