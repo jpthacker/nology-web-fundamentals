@@ -4,6 +4,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* navbar stylings */
+
 nav,
 nav * {
   display: flex;
@@ -45,50 +47,48 @@ a:hover {
   color: black;
 }
 
-.panels-all {
-  border-style: solid;
-  border-color: black;
-  border-width: 3px;
-}
+/*content stylings */
 
-.panel-header {
-  margin-bottom: 10px;
-}
-
-#panels-container-all {
-  margin: 20px;
+main {
+  width: 95%;
+  height: 500px;
+  margin: 25px auto;
   display: flex;
   justify-content: space-between;
-  height: 440px;
 }
 
-#panels-container-left {
-  flex-grow: 1;
-  margin-right: 20px;
+#left-panel {
+  width: 67.5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.panels-left {
-  padding: 10px;
+.card {
+  border: solid black 2px;
+  height: 25%;
+  padding: 15px;
 }
 
-.panels-list {
-  margin-left: 45px;
+ul {
+  margin-left: 50px;
 }
 
-.panels-list-item {
-  padding-bottom: 10px;
+li {
+  margin: 15px 0;
 }
 
 #panel-right {
-  width: 30%;
-  text-align: justify;
-  padding: 10px;
+  width: 27.5%;
+  padding: 15px;
+  border: solid black 2px;
   overflow: hidden;
 }
 
+#panel-right > h3 {
+  margin-bottom: 10px;
+}
+
 p {
-  height: inherit;
+  text-align: justify;
 }
