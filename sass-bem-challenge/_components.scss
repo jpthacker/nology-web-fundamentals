@@ -20,6 +20,13 @@
     width: 100%;
     background-color: $color-primary-light;
   }
+
+  &__log-out {
+    width: 180px;
+    background-color: white;
+    color: $color-black;
+    border: solid $color-primary-light 2px;
+  }
 }
 
 .intro {
@@ -69,11 +76,4 @@
     font-size: 50px;
     margin-bottom: 20px;
   }
-
-  /*&__button {
-    width: 200px;
-    background-color: white;
-    color: $color-black;
-    border: solid $color-primary-light 2px;
-  }*/
 }
