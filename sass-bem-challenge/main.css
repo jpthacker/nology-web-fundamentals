@@ -83,10 +83,13 @@ a:visited {
   align-items: flex-end;
 }
 
-.main {
+.section {
   height: 50vh;
-  background-color: #28527a;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-primary {
+  background-color: #28527a;
 }

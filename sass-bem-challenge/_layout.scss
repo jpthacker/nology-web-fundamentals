@@ -8,16 +8,19 @@
 }
 
 .header {
-  height: 90vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
-.main {
+.section {
   height: 50vh;
-  background-color: $color-primary;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.section-primary {
+  background-color: $color-primary;
 }
