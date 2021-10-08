@@ -67,6 +67,15 @@ a:visited {
   margin-bottom: 20px;
 }
 
+.thankyou {
+  text-align: center;
+}
+.thankyou__sub-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
 .navigation {
   height: 10vh;
   padding: 40px;
@@ -85,11 +94,17 @@ a:visited {
 
 .section {
   height: 50vh;
+}
+
+.section-1 {
+  background-color: #28527a;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section-primary {
-  background-color: #28527a;
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }

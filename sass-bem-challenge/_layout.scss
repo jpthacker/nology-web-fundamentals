@@ -16,11 +16,17 @@
 
 .section {
   height: 50vh;
+}
+
+.section-1 {
+  background-color: $color-primary;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.section-primary {
-  background-color: $color-primary;
+.section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
