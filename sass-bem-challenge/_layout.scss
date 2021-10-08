@@ -30,3 +30,13 @@
   justify-content: center;
   align-items: flex-start;
 }
+
+.footer {
+  height: 10vh;
+  padding: 40px;
+  color: $color-white;
+  background-color: $color-primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

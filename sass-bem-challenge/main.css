@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  color: #333333;
 }
 
 a:link,
@@ -78,11 +77,23 @@ a:visited {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 .thankyou__sub-heading {
   font-family: "Dancing Script", cursive;
   font-size: 50px;
   margin-bottom: 20px;
+}
+
+.logo--footer,
+.date {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navigation {
@@ -116,4 +127,14 @@ a:visited {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+}
+
+.footer {
+  height: 10vh;
+  padding: 40px;
+  color: #fafafa;
+  background-color: #28527a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
