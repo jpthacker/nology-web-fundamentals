@@ -69,11 +69,19 @@ a:visited {
 
 .thankyou {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .thankyou__sub-heading {
   font-family: "Dancing Script", cursive;
   font-size: 50px;
-  margin: 20px 0;
+  margin-bottom: 20px;
+}
+.thankyou__button {
+  background-color: white;
+  color: #333333;
+  border: solid #55a5f0 2px;
 }
 
 .navigation {
