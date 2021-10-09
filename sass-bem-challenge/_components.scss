@@ -19,6 +19,7 @@
   &--form {
     width: 100%;
     background-color: $color-primary-light;
+    cursor: pointer;
   }
 
   &__log-out {
@@ -26,6 +27,7 @@
     background-color: white;
     color: $color-black;
     border: solid $color-primary-light 2px;
+    cursor: pointer;
   }
 }
 
@@ -65,14 +67,14 @@
   }
 }
 
-.thankyou {
+.outro {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
 
-  &__sub-heading {
+  &__heading {
     font-family: $font-display;
     font-size: 50px;
     margin-bottom: 20px;
@@ -80,12 +82,12 @@
 }
 
 .logo--footer,
-.date {
+.footer__text--date {
   flex-grow: 1;
   flex-basis: 0;
 }
 
-.date {
+.footer__text--date {
   display: flex;
   justify-content: flex-end;
 }
