@@ -9,7 +9,7 @@
   height: 230px;
   padding: 10px;
   background-color: cornflowerblue;
-  border: solid #fff 3px;
+  border: solid #fff 5px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(3, 1fr);
@@ -24,4 +24,12 @@
 
 header {
   grid-column: 1/4;
+}
+
+.menu {
+  grid-row: 2/4;
+}
+
+footer {
+  grid-column: 2/4;
 }
