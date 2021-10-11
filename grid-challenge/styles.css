@@ -12,8 +12,7 @@
   border: solid #fff 5px;
   display: grid;
   grid-gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template: "header header header" 60px "menu main right" 60px "menu footer footer" 60px/20% 1fr 35%;
 }
 
 .grid-item {
@@ -23,13 +22,21 @@
 }
 
 header {
-  grid-column: 1/4;
+  grid-area: header;
 }
 
 .menu {
-  grid-row: 2/4;
+  grid-area: menu;
+}
+
+.main {
+  grid-area: main;
+}
+
+.right {
+  grid-area: right;
 }
 
 footer {
-  grid-column: 2/4;
+  grid-area: footer;
 }
