@@ -40,3 +40,10 @@ header {
 footer {
   grid-area: footer;
 }
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    height: 370px;
+    grid-template: "header header header header" 60px "menu menu main main" 60px "menu menu main main" 60px "right right right right" 60px "footer footer footer footer" 60px/1fr 1fr 1fr 1fr;
+  }
+}
