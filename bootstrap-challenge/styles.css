@@ -1,0 +1,12 @@
+/*[class^="con"] {
+  margin-top: 20px;
+}
+
+[class^="row"] {
+  background-color: #c3aed6;
+}
+
+[class^="col"] {
+  background-color: #efbbcf;
+  color: #8675a9;
+}
