@@ -25,7 +25,7 @@
 }
 
 .nav {
-  background-color: skyblue;
+  background-color: lightblue;
   color: #1e90ff;
   grid-area: nav;
 }
@@ -36,7 +36,7 @@
 }
 
 .ads {
-  background-color: #caf3ca;
+  background-color: #d7f8d7;
   color: #4bcc4b;
   grid-area: ads;
 }
