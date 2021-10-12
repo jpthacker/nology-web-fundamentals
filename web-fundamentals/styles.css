@@ -121,3 +121,8 @@ span {
 #footer {
   height: 150px;
 }
+
+i {
+  size: 30px;
+  color: blue;
+}
