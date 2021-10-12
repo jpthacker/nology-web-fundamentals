@@ -6,6 +6,7 @@
   background-color: #c3aed6;
   min-height: 300px;
   padding: 10px;
+  margin: 5px;
 }
 
 [class^="col"] {
