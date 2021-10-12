@@ -10,6 +10,7 @@
 }
 
 [class^="col"] {
+  min-height: 150px;
   background-color: #ffd5cd;
   color: #8675a9;
   text-align: center;
