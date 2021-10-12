@@ -40,3 +40,9 @@
   color: #4bcc4b;
   grid-area: ads;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    grid-template: "header header header" 70px "nav main ads" 1fr/25% 1fr 25%;
+  }
+}
