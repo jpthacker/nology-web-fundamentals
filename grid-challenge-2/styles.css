@@ -4,22 +4,32 @@
   box-sizing: border-box;
 }
 
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template: "header" 30px "nav" 30% "main" 1fr "ads" 20%/100%;
+}
+
 .header {
   width: 100%;
   height: 50px;
   background-color: cornflowerblue;
+  grid-area: header;
 }
 
 .nav {
   background-color: skyblue;
   color: #1e90ff;
+  grid-area: nav;
 }
 
 .main {
   background-color: #fff;
+  grid-area: main;
 }
 
 .ads {
   background-color: #caf3ca;
   color: #4bcc4b;
+  grid-area: ads;
 }
