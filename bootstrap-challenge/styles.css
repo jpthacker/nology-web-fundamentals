@@ -1,12 +1,18 @@
-/*[class^="con"] {
+[class^="con"] {
   margin-top: 20px;
 }
 
 [class^="row"] {
   background-color: #c3aed6;
+  min-height: 300px;
+  padding: 10px;
 }
 
 [class^="col"] {
-  background-color: #efbbcf;
+  background-color: #ffd5cd;
   color: #8675a9;
+  text-align: center;
+  border: solid 2px #c3aed6;
+  border-radius: 5px;
+  padding: 10px;
 }
